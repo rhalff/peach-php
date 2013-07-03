@@ -1,0 +1,322 @@
+* {
+margin: 0px;
+}
+
+body {
+color: #333;
+background-color: #efefef;
+font-family: "Arial","Verdana","Helvetica",sans-serif;
+font-size: 8pt;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+/* for ie */
+text-align: center;
+}
+
+ul{
+list-style: square;
+}
+option {
+    font: 1.6em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input, select {
+    font: 72%/1.6em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    margin: 4px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.content input[type = "text"] {
+    width: 175px;
+}
+
+.content input[type = "file"] {
+    display: block;
+    clear: both;
+}
+
+.clear {
+clear: both;
+}
+
+textarea {
+
+width: 350px;
+height: 200px;
+
+}
+
+a:link {
+    color: #f96;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #f96;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: silver;
+    font-weight: bold;
+}
+
+/* force tables to fit in the body area */
+table {
+width: 350px;
+}
+
+#head {
+background-image: url('/themes/default/images/logo_small.png');
+background-repeat: no-repeat;
+background-position: top left;
+margin-top: 1em;
+margin-left: auto;
+margin-right: auto;
+width: 860px;
+height: 45px;
+}
+
+#container {
+/* Must be relative. The absolutely positioned #leftSide will be placed relatively absolute (:p)
+   To the container, otherwise it will be placed absolute relatively to the document body */
+position:relative;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+width: 860px;
+border: 1px solid black;
+/* restore text-align */
+text-align: left;
+}
+
+#rightSide {
+float: right;
+right: 0px;
+border-left: 1px solid black;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-left: 1em;
+width: 200px;
+}
+
+.menu {
+background-color: black;
+background-image: url('images/backblue.gif');
+background-repeat: no-repeat;
+background-position: top left;
+border: 1px solid black;
+margin: 0px;
+margin-bottom: 1em;
+width: 180px;
+/* because of IE center*/
+text-align: left;
+/* Show the background image
+    padding works both in IE and mozilla, margin-left or left only works in mozilla
+*/ 
+padding-left: 0px;
+}
+
+.menu li {
+background-color: #efefef;
+list-style: none;
+border-bottom: 1px solid black;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.menu:first-child {
+border-top: 1px solid black;
+}
+
+.menu li strong {
+text-decoration: none;
+padding-left: 3px;
+font-weight: bold;
+color: black;
+border-left: 15px solid #f96;
+}
+
+
+.menu li a {
+text-decoration: none;
+padding-left: 3px;
+font-weight: bold;
+color: black;
+border-left: 15px solid silver;
+}
+
+.menu li a:hover {
+border: 0px;
+color: #f96;
+border-left: 15px solid #000;
+}
+
+.menu li a:active {
+border: 0px;
+color: #f96;
+border-left: 15px solid #000;
+}
+
+#content {
+width: 550px;
+padding: 15px;
+}
+
+#titlebar {
+display: block;
+height: 20px;
+width: 808px;
+background-color: black;
+color: white;
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+}
+
+.boxTitle {
+letter-spacing: 1px;
+font-size: 12px;
+font-weight: bold;
+background-color: #eeeeee;
+color: #4F4F4F;
+padding: 0.5em;
+padding-bottom: 0.2em;
+padding-top: 0.2em;
+border-left: 1px solid silver;
+border-right: 1px solid silver;
+border-top: 1px solid silver;
+}
+
+#content .boxTitle {
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 4px;
+background-color: white;
+padding-bottom: 0.1em;
+padding-top: 0.1em;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+color: black;
+}
+
+#content .boxContent {
+border: 0px;
+border-top: 1px solid black;
+background-color: white;
+}
+
+.boxContent {
+padding: 1em;
+background-color: #eeeeee;
+border: 1px solid silver;
+margin-bottom: 20px;
+}
+
+.boxContent h3  span {
+display: block;
+background-color: white;
+background-image: url('images/block.gif');
+background-repeat: no-repeat;
+letter-spacing: 2px;
+font-size: 14px;
+padding-left: 24px;
+padding-top: 0px;
+padding-bottom: 2px;
+border: 1px solid black;
+margin-bottom: 1em;
+}
+
+.p1 {
+display: block;
+margin-top: 1em;
+padding: 1em;
+background-color: white;
+}
+
+.p1 img {
+margin-left: 0px;
+margin-right: 10px;
+margin-bottom: 3px;
+border: 1px solid black;
+float: left;
+}
+
+.imageCenter {
+display: block;
+width: 100%;
+}
+
+.imageCenter img {
+border: 1px solid black;
+float: center;
+clear:both;
+}
+
+.imageLeft img{
+margin-left: 0px;
+margin-right: 10px;
+margin-bottom: 3px;
+border: 1px solid black;
+float: left;
+}
+
+.imageRight img{
+margin-left: 10px;
+margin-right: 0px;
+margin-bottom: 3px;
+border: 1px solid black;
+float: right;
+}
+#copy {
+padding-top: 0.5em;
+border-top: 1px dotted black;
+font: 10px Verdana;
+color: #f3f3f3;
+font-weight: bold;
+}
+
+.EditLink {
+border: 1px solid black;
+background-color:white;
+margin: 1em;
+}
+
+/* default table look */
+table {
+border: 1px solid black;
+}
+
+th {
+background-color: silver;
+font-weight: bold;
+letter-spacing: 0.3em;
+}
+
+td {
+border: 1px solid silver;
+padding: 1em;
+}
+
+.RHALFF_App_Menu_Manager {
+width: 180px;
+
+}
+
+#errorMessage {
+display: block;
+width: 450px;
+background-image: url('/themes/default/images/warning.png');
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 35px;
+padding-top: 5px;
+border-top: 1px solid red;
+border-left: 5px solid red;
+}

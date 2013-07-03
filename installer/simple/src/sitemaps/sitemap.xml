@@ -1,0 +1,27 @@
+<sitemap>
+<div id="head"></div>
+<div id="container">
+<div id="rightSide">
+   <App module="Menu" method="menu" title="menu">
+       <param name="MenuFile" value="menu.xml"/>
+   </App>
+   <App module="Menu" method="menu" title="Menu">
+       <param name="MenuFile" value="menuMenu.xml"/>
+   </App>
+   <App module="Menu" method="menu" title="Categories">
+       <param name="MenuFile" value="categoryMenu.xml"/>
+   </App>
+   <App module="Menu" method="menu" title="Images">
+       <param name="MenuFile" value="imagesMenu.xml"/>
+   </App>
+   <App module="Menu" method="menu" title="News">
+       <param name="MenuFile" value="newsMenu.xml"/>
+   </App>
+</div>
+<div id="content">
+  <CurrentApp module="HelloWorld" method="Greeting" title="Greeting"/>
+</div>
+<br style="clear: both;"/>
+</div>
+<p>This software is published under the Gnu Public License, Copyright (c) 2004 Rob Halff All rights reserved.</p>
+</sitemap>

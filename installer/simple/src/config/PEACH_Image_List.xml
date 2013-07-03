@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="limit" title="Limit of images per page" type="numeric">15</pref>
+    <pref id="dsn" title="Dsn for the image list" type="string">@DB_DSN@</pref>
+    <pref id="table" title="Table name for this image list" type="string">images</pref>
+  </preferences>
+</config>

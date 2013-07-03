@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="outputType" title="Default output type (must be valid gd2 output type)" type="gdOutputType">png</pref>
+    <pref id="tempDir" title="Temporary directory for image Processing" type="absoluteDir">/tmp</pref>
+    <pref id="tempNamePrefix" title="Prefix for temporary Images" type="string">PEACH_Image</pref>
+  </preferences>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<module>
+ <title>Image Library</title>
+ <icon>/images/App/Images/imageManager.png</icon>
+ <author>Rob Halff</author>
+ <description>You can maintain the images of your site here.</description>
+ <files>
+ </files>
+</module>

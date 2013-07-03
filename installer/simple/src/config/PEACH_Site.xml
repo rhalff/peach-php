@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="defaultSiteMap" title="Default Sitemap for this site" type="string">sitemap.xml</pref>
+  </preferences>
+</config>

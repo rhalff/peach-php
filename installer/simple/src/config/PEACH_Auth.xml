@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="expire" title="Expiration until the authentication will expire (in seconds)" type="integer">10000</pref>
+    <pref id="dsn" title="Dsn for authentication" type="string">mysql://user:password@localhost/PEACH</pref>
+    <pref id="table" title="Table for authentication" type="string">PEACH_USER</pref>
+    <pref id="usernamecol" title="Username Column" type="string">LOGIN_NAME</pref>
+    <pref id="passwordcol" title="Password Column" type="string">PASSWORD_VALUE</pref>
+    <pref id="db_fields" title="Extra database fields to pull from the table" type="array">LOGIN_NAME,FIRST_NAME,LAST_NAME</pref>
+    <pref id="cryptType" title="Encryption Type" type="string">md5</pref>
+  </preferences>
+</config>

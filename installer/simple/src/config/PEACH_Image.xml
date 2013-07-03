@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="dsn" title="Dsn for the image list" type="string">@DB_DSN@</pref>
+    <pref id="table" title="Table name for this image list" type="string">images</pref>
+    <pref id="absolutePath" title="Absolute Path to the image dir" type="string">@INSTALL_DIR@/Data/Images</pref>
+    <pref id="webPath" title="Web Path to the images, must be reachable by the server" type="string">/Data/Images</pref>
+  </preferences>
+</config>

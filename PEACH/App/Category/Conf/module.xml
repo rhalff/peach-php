@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<module>
+ <title>Categories</title>
+ <icon></icon>
+ <author>Rob Halff</author>
+ <description>Here you can manage the categories of your site</description>
+ <files>
+
+ </files>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="maxFileSize" title="Maximum File Size (in bytes)" type="numeric">1000000</pref>
+    <pref id="scaleToWidth" title="Fixed image width" type="numeric">250</pref>
+    <pref id="thumbX" title="thumb width" type="numeric">100</pref>
+    <pref id="thumbY" title="thumb Height" type="numeric">100</pref>
+    <pref id="enableSaveAsCopy" title="Enable save as copy" type="boolean">true</pref>
+    <pref id="enableFilters" title="Enable Image Filter Selection" type="boolean">true</pref>
+    <pref id="filters" title="Comma Seperated list of filers to use" type="array">Greyscale,Rotate,Spidersweb</pref>
+  </preferences>
+</config>

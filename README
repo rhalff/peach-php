@@ -1,0 +1,33 @@
+PEACH Content Management Framework
+
+Requirements:
+
+ - PHP 5.x
+ - PEAR
+ - PEAR_DB
+ - PEAR_Log
+ - PEAR_Auth
+ - HTML_Template_Flexy
+ - HTML_QuickForm
+ - Propel
+ 
+Installation:
+
+If you've got this copy from cvs, first do a 'cvs up -dP', this will remove any empty directories.
+
+For now only the simple installer is available,
+eventually peach will be build by using the phing system.
+
+PEACH consists of two parts, the PEACH library and an installer which
+will create the filesystem structure for you website.
+
+To install PEACH just run install.sh in the installer/simple directory.
+
+This will create the basic site in the directory you have specified.
+This directory should be accessible from your webserver.
+
+PEACH also requires the PEAR core libraries to be installed, along
+with some packages mentioned above, make sure you've installed these.
+
+Some App's can run without Propel installed, so it's not absolutely necessary to install it.
+

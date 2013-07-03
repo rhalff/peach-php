@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+<pref id="cache" title="Whether to use cache" type="bool">false</pref>
+<pref id="charset" title="The character set to use" type="string">utf-8</pref>
+<pref id="doctype" title="The Doctype to use" type="string">XHTML 1.0 Transitional</pref>
+<pref id="lang" title="The Language to use" type="string">en</pref>
+<pref id="title" title="The default title of the page" type="string">PEACH Demo Install</pref>
+  </preferences>
+</config>
+
+

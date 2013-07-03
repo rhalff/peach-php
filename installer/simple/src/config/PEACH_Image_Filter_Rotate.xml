@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="Rotation" title="Rotation" type="numeric">-45</pref>
+    <pref id="bgColor" title="Background Color" type="color">#FFFFFF</pref>
+  </preferences>
+</config>

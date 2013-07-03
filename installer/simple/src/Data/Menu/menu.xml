@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu title="Main" desc="Main Menu">
+  <link url="/HelloWorld/Greeting" title="Hello World!" desc="Example Helloworld App"/>
+</menu>

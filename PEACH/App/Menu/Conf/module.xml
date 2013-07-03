@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+ <title>Menu Manager</title>
+ <icon>/images/App/Menu/menu.png</icon>
+ <author>Rob Halff</author>
+ <description>You can edit the different menu's on the site here.</description>
+ <files>
+ </files>
+</module>

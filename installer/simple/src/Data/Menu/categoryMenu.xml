@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu title="Category">
+  <description>Category Menu</description>
+  <link url="/Category/list" title="List Categories" desc="List Categories"/>
+  <link url="/Category/addForm" title="Add Category" desc="Add Categories"/>
+</menu>

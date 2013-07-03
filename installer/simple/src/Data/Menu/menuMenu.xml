@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu title="Menu" desc="Menu menu">
+  <link url="/Menu/list" title="List Menus" desc="List Menus"/>
+</menu>

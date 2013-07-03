@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="handler" title="The type of concrete Log subclass to return.  Attempt to dynamically include the code for this subclass. Currently, valid values are 'console', 'syslog', 'sql', 'file', and 'mcal'." type="string">file</pref>
+    <pref id="name" title="The name of the actually log file, table, or other specific store to use. Defaults to an empty string, with which the subclass will attempt to do something intelligent." type="string">@INSTALL_DIR@/logs/PEACH.log</pref>
+    <pref id="ident" title="The identity reported to the log system" type="string">PEACH</pref>
+    <pref id="conf" title="Additional conf a subclass might need" type="array"></pref>
+    <pref id="level" title="Log messages up to and including this level" type="constant">PEAR_LOG_DEBUG</pref>
+  </preferences>
+</config>

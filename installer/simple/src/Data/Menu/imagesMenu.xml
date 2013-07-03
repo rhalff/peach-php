@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu title="Images">
+  <description>Images menu</description>
+  <link url="/Images/list" title="Image List" desc="Show the image collection"/>
+  <link url="/Images/upload" title="Upload Image" desc="Add a new image to the image collection"/>
+</menu>

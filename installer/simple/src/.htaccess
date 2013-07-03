@@ -1,0 +1,4 @@
+RewriteEngine on 
+RewriteBase /
+RewriteCond %{REQUEST_URI} !(^/peach|^.*\.css$|^.*\.png|^.*\.(jpg|jpeg)|^.*\.gif|^.*\.js|^.*\.html)
+RewriteRule ^ /peach/index.php

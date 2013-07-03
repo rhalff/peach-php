@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<module>
+ <title>Apache Error Docs</title>
+ <icon></icon>
+ <author>Rob Halff</author>
+ <description>Configure your error documents here</description>
+ <files>
+
+ </files>
+</module>

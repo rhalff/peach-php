@@ -1,0 +1,9 @@
+<h1>Menus</h1>
+<ul>
+{foreach:menus,menu}
+<li>
+<h3>{menu[link]:h}</h3>
+<p>{menu[description]:h}</p>
+</li>
+{end:}
+</ul>

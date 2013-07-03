@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="debug" title="Whether to turn on debugging" type="boolean">false</pref>
+  </preferences>
+</config>

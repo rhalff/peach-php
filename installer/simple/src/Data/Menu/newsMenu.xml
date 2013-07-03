@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu title="News">
+  <description>News menu</description>
+  <link url="/News/list" title="List" desc="List Menus"/>
+  <link url="/News/addForm" title="Add" desc="Add Menus"/>
+</menu>

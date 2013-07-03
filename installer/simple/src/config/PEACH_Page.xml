@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+<pref id="styleSheets" title="The default styleSheets" type="array">/themes/default/style.css</pref>
+  </preferences>
+</config>
+
+

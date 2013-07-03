@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <preferences>
+    <pref id="OutputGamma" title="Output Gamma" type="float">2.9</pref>
+    <pref id="InputGamma" title="Input Gamma" type="float">1.0</pref>
+  </preferences>
+</config>
